@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TED - Prova</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="./scriptPilha.js" defer></script>
+    <script src="./scriptFila.js" defer></script>
+    <script src="./scriptHash.js" defer></script>
+    <script src="./scriptArvore.js" defer></script>
+
+<body>
+    <div class="text">
+        <h1>Bem vindo À Prova de TED do</h1> 
+        <h5>Henrique Souza Boss!</h5>
+    </div>
+    <br/><br/>
+    <div class="tabelas">
+        <table>
+            <tr>
+              <th>Árvore</th>
+              <th>Pilha</th>
+              <th>Fila</th>
+              <th>Tabela Hash</th>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" id="arvore" name="arvore" placeholder="Insire Valor...">
+               </td>
+              <td>
+                <input type="text" id="pilha" name="pilha" placeholder="Insire Valor...">
+              </td>
+              <td>
+                <input type="text" id="fila" name="fila" placeholder="Insire Valor...">
+              </td>
+              <td>
+                <input type="text" id="hash" name="key" placeholder="Insire Chave...">
+                <input type="text" id="hash" name="hash" placeholder="Insire Valor...">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="criarArvore" id="btn-submit">Enviar</button>
+                <input type="submit" value="Deletar" class="deletarArvore" id="btn-delete">
+                </td>
+              <td>
+                <input type="submit" value="Enviar" class="criarPilha" id="btn-submit">
+                <input type="submit" value="Deletar" class="deletarPilha" id="btn-delete">
+              </td>
+              <td>  
+                  <input type="submit" value="Enviar" class="criarFila" id="btn-submit">
+                  <input type="submit" value="Deletar" class="deletarFila" id="btn-delete">
+                </td>
+              <td>
+                <input type="submit" value="Enviar" class="criarHash" id="btn-submit">
+                <input type="submit" value="Deletar" class="deletarHash" id="btn-delete">
+              </td>
+            </tr>
+            <tr>
+                <th class="valorArvore">Valor: Olhe o console 👆</th>
+                <th class="valorPilha">Valor:</th>
+                <th class="valorFila">Valor:</th>
+                <th class="valorHash">Valor:</th>
+              </tr>
+          </table>
+    </div>
+</body>
+</html>
